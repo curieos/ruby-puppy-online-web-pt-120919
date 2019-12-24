@@ -1,5 +1,5 @@
 # Add your code here
-class Dog 
+class Dog
   @@all = []
   
   def initialize(name)
@@ -10,5 +10,9 @@ class Dog
   
   def self.all
     @@all
+  end
+  
+  def self.clear_all
+    @@all = @@all.clear
   end
 end
